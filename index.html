@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./assets/superhero (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Outfit:wght@600;700;900&family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="./index.html" class="nav_logo"><img src="./assets/logo-u.png" alt="navbar logo"></a>
+            <ul class="nav_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav_buttons">
+                <buttons class="nav_theme-btn"><i class="uil uil-moon"></i></buttons>
+                <buttons class="nav_toggle_open"><i class="uil uil-bars"></i></buttons>
+                <buttons class="nav_toggle_close"><i class="uil uil-multiply"></i></buttons>
+            </div>
+        </div>
+    </nav>
+    <!--===============end of navbar===========-->
+
+
+
+
+
+
+
+
+    <head>
+        <div class="container header_container">
+            <article class="header_image" data-aos="fade-up" data-aos-delay="700">
+                <div><img src="./assets/header-u.png" alt="header image"></div>
+            </article>
+            <article class="header_content" data-aos="fade-in">
+                <h4>Hi, I'm <span>Ghure Mohd Umar</span>. And I am a</h4>
+                <h1>Software developer, weaving digital dreams into reality, <br>one algorithm at a time.</h1>
+                <p>As the glow of the computer screen illuminates my face, a spark of excitement dances in my eyes. With each line of code I meticulously craft, a sense of accomplishment surges through my veins. 
+                    The world of web development has captivated me in a way nothing else ever has. It's the perfect blend of creativity and logic, where I can turn a blank canvas into a virtual masterpiece. </p>
+                <div class="header_cta">
+                    <a href="#contact" class="btn primary">Hire me</a>
+                    <a href="#projects" class="btn">Portfolio</a>
+                </div>    
+            </article>
+            <ul class="header_socials">
+                <li><a href="https://www.linkedin.com/in/gmumar/" target="_blank"><i class="uil uil-linkedin"></i></a></li>
+                <li><a href="https://github.com/Umarboi" target="_blank"><i class="uil uil-github"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="uil uil-instagram-alt"></i></a></li>
+            </ul>
+        </div>
+    </head>
+    <!--===============end of header===========-->
+
+
+
+
+
+
+
+
+    <section class="about" id="about">
+        <div class="container about_container">
+            <div class="about_image">
+                <img src="./assets/about-u.png" alt="Umar's picture">
+            </div>
+            <div class="about_details" data-aos="fade-in" data-aos-delay="300">
+                <h1>About me</h1>
+                <div class="about_cards">
+                    <article class="about_card">
+                        <i class="uil uil-book-reader"></i>
+                        <h4>Education</h4>
+                        <small>B.E Electronics & Telecoomunication</small>
+                    </article>
+                    <article class="about_card">
+                        <i class="uil uil-constructor"></i>
+                        <h4>Projects</h4>
+                        <small>6+ completed</small>
+                    </article>
+                    <article class="about_card">
+                        <i class="uil uil-user-nurse"></i>
+                        <h4>Experience</h4>
+                        <small>Fresher</small>
+                    </article>
+                </div>
+                <p>As a budding web developer, I'm excited to embark on my journey of turning creative visions into interactive online experiences.
+                As an aspiring web developer, I come with a deep fascination for the digital realm and a determination to translate that passion into captivating websites. 
+                </p>
+                <p>Armed with a solid grasp of HTML, CSS, and JavaScript, I'm eager to learn and collaborate, infusing fresh ideas and a strong enthusiasm for clean and captivating web design. 
+                With an eye for detail and a dedication to continuous learning, I am ready to code my way into the ever-evolving world of web development.
+                </p>
+                <a href="./assets/Umar Ghure.pdf" class="btn primary" download target="_blank"><i class="uil uil-download-alt"></i>
+                 Download CV</a>
+            </div>
+        </div>
+    </section>    
+<!--===============end of about===========-->
+
+
+
+
+
+
+
+    <section class="projects" id="projects">
+        <h1>Recent Projects</h1>
+        <p>These are few of my recents projects that I have made. </p>
+        <ul class="projects_categories">
+            <li class="active" data-filter="*">All</li>
+            <li data-filter=".frontend">FrontEnd</li>
+            <li data-filter=".backend">BackEnd</li>
+            <li data-filter=".fullstack">FullStack</li>
+        </ul>
+
+        <div class="container projects_container" data-aos="fade-in">
+            <article class="project mix frontend" data-order="1">
+                <dic class="projects_image">
+                    <img src="./assets/project1.png" alt="Project1 image">
+                </dic>
+                <h3><b>Dental-Care</b></h3>
+                <p>DentalCare," an innovative web application revolutionizing the way dental treatments are accessed and managed.With user-friendly interfaces and secure data handling.
+                    Say goodbye to long waiting times and hello to a healthier smile, all through the power of this cutting-edge web app.</p>
+                <div class="project_cta">
+                    <a href="https://umarboi.github.io/Dental-Care/" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="https://github.com/Umarboi/Dental-Care" class="btn sm " target="_blank">GitHub</a>
+                </div>    
+            </article>
+
+
+            <article class="project mix frontend" data-order="2">
+                <dic class="projects_image">
+                    <img src="./assets/project2.jpg" alt="Project2 image">
+                </dic>
+                <h3><b>iNVEST</b></h3>
+                <p>Introducing "iNVEST," your gateway to the world of cryptocurrencies.
+                    Whether you're monitoring the latest trends, managing your crypto holdings, or exploring new investment opportunities, iNVEST provides a user-friendly and secure platform that brings the exciting realm of digital assets to your fingertips.</p>
+                <div class="project_cta">
+                    <a href="https://umarboi.github.io/crypto-iNVEST/" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="https://github.com/Umarboi/crypto-iNVEST" class="btn sm " target="_blank">GitHub</a>
+                </div>    
+            </article>
+
+
+            <article class="project mix frontend" data-order="3">
+                <dic class="projects_image">
+                    <img src="./assets/project3.png" alt="Project3 image">
+                </dic>
+                <h3><b>TinDog</b></h3>
+                <p>Introducing "Tinog" – where furry companions find their perfect playdates! Tinog is a unique web application designed to bring dogs together in a Tinder-like environment. 
+                    Tinog isn't just a website; it's a platform for building lasting bonds among our canine companions, one paw-printed profile at a time.</p>
+                <div class="project_cta">
+                    <a href="https://umarboi.github.io/Tinder-Dog/" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="https://github.com/Umarboi/Tinder-Dog" class="btn sm " target="_blank">GitHub</a>
+                </div>    
+            </article>
+
+
+            <article class="project mix frontend" data-order="4">
+                <dic class="projects_image">
+                    <img src="./assets/project4.png" alt="Project4 image">
+                </dic>
+                <h3><b>DINEamite</b></h3>
+                <p>
+                    Introducing "DINEamite" – the ultimate dining companion for food enthusiasts. DINEamite is a web application that redefines the way you experience restaurants. With a user-friendly interface, it enables you to effortlessly discover nearby eateries, explore menus, and make reservations at your fingertips. 
+                    Say goodbye to waiting in long lines and hello to a world of seamless reservations.</p>
+                <div class="project_cta">
+                    <a href="https://umarboi.github.io/DINEamite/" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="https://github.com/Umarboi/DINEamite" class="btn sm " target="_blank">GitHub</a>
+                </div>    
+            </article>
+
+
+            <article class="project mix frontend" data-order="5">
+                <dic class="projects_image">
+                    <img src="./assets/project8.jpg" alt="Project8 image">
+                </dic>
+                <h3><b>Dental-Care</b></h3>
+                <p>DentalCare," an innovative web application revolutionizing the way dental treatments are accessed and managed.With user-friendly interfaces and secure data handling.
+                    Say goodbye to long waiting times and hello to a healthier smile, all through the power of this cutting-edge web app.</p>
+                <div class="project_cta">
+                    <a href="https://umarboi.github.io/Dental-Care/" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="https://github.com/Umarboi/Dental-Care" class="btn sm " target="_blank">GitHub</a>
+                </div>    
+            </article>
+        </div>
+    </section>
+<!--===============end of projects===========-->
+
+
+
+
+
+    <section class="swiper">
+        <h1>What my friends say</h1>
+        <p>This what my friends which are also my clients say about my work</p>
+        <div class="swiper-wrapper">
+            <figure class="swiper-slide">
+                <figcaption>
+                  In the world of web development, my friend's skills shine like a beacon. Their ability to craft intricate and visually stunning websites is nothing short of impressive, leaving me in constant admiration of their talent and dedication to their craft.  
+                </figcaption>
+                <div class="swiper_client">
+                    <div class="swiper_client-avatar">
+                        <img src="./assets/avatar1.jpg" alt="client one">
+                    </div>
+                    <div class="swiper_client-details">
+                        <h5>Furqan Shakil Budye</h5>
+                        <small>AI/ML Engineer</small>
+                    </div>
+                </div>
+            </figure>
+
+
+            <figure class="swiper-slide">
+                <figcaption>
+                  In the world of web development, my friend's skills shine like a beacon. Their ability to craft intricate and visually stunning websites is nothing short of impressive, leaving me in constant admiration of their talent and dedication to their craft.  
+                </figcaption>
+                <div class="swiper_client">
+                    <div class="swiper_client-avatar">
+                        <img src="./assets/avatar2.jpg" alt="client o2">
+                    </div>
+                    <div class="swiper_client-details">
+                        <h5>Ahmad Shaikh</h5>
+                        <small>System Design Engineer</small>
+                    </div>
+                </div>
+            </figure>
+
+
+            <figure class="swiper-slide">
+                <figcaption>
+                  In the world of web development, my friend's skills shine like a beacon. Their ability to craft intricate and visually stunning websites is nothing short of impressive, leaving me in constant admiration of their talent and dedication to their craft.  
+                </figcaption>
+                <div class="swiper_client">
+                    <div class="swiper_client-avatar">
+                        <img src="./assets/avatar3.jpg" alt="client 3">
+                    </div>
+                    <div class="swiper_client-details">
+                        <h5>Bazidpuri Naved</h5>
+                        <small>Software Developer</small>
+                    </div>
+                </div>
+            </figure>
+
+
+            <figure class="swiper-slide">
+                <figcaption>
+                  In the world of web development, my friend's skills shine like a beacon. Their ability to craft intricate and visually stunning websites is nothing short of impressive, leaving me in constant admiration of their talent and dedication to their craft.  
+                </figcaption>
+                <div class="swiper_client">
+                    <div class="swiper_client-avatar">
+                        <img src="./assets/avatar4.jpg" alt="client 4">
+                    </div>
+                    <div class="swiper_client-details">
+                        <h5>Shlok Saxena</h5>
+                        <small>VLSI Engineer</small>
+                    </div>
+                </div>
+            </figure>
+
+
+            <figure class="swiper-slide">
+                <figcaption>
+                  In the world of web development, my friend's skills shine like a beacon. Their ability to craft intricate and visually stunning websites is nothing short of impressive, leaving me in constant admiration of their talent and dedication to their craft.  
+                </figcaption>
+                <div class="swiper_client">
+                    <div class="swiper_client-avatar">
+                        <img src="./assets/avatar5.jpg" alt="client 5">
+                    </div>
+                    <div class="swiper_client-details">
+                        <h5>Varun Patil</h5>
+                        <small>ATS Officer</small>
+                    </div>
+                </div>
+            </figure>
+
+
+            <figure class="swiper-slide">
+                <figcaption>
+                  In the world of web development, my friend's skills shine like a beacon. Their ability to craft intricate and visually stunning websites is nothing short of impressive, leaving me in constant admiration of their talent and dedication to their craft.  
+                </figcaption>
+                <div class="swiper_client">
+                    <div class="swiper_client-avatar">
+                        <img src="./assets/avatar6.jpg" alt="client 6">
+                    </div>
+                    <div class="swiper_client-details">
+                        <h5>Kuljit Singh </h5>
+                        <small>Indian Army Major </small>
+                    </div>
+                </div>
+            </figure>
+
+
+            <figure class="swiper-slide">
+                <figcaption>
+                  In the world of web development, my friend's skills shine like a beacon. Their ability to craft intricate and visually stunning websites is nothing short of impressive, leaving me in constant admiration of their talent and dedication to their craft.  
+                </figcaption>
+                <div class="swiper_client">
+                    <div class="swiper_client-avatar">
+                        <img src="./assets/avatar7.jpg" alt="client 7">
+                    </div>
+                    <div class="swiper_client-details">
+                        <h5>Amir Mithagari</h5>
+                        <small>Cyper Security ENgineer</small>
+                    </div>
+                </div>
+            </figure>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <!--===============end of testimonials===========-->
+
+    <section class="contact" id="contact">
+        <div class="container contact_container">
+            <ul class="contact_list">
+                <li data-aos="fade-in"><a href="mailto:ghuremohdumar@gmail.com" class="contact_list-item" target="_blank">                    
+                    <i class="uil uil-envelope-edit"></i>
+                </a></li>
+
+                <li data-aos="fade-in" data-aos-delay="150"><a href="https://wa.me/+919004087837" class="contact_list-item" target="_blank">                    
+                    <i class="uil uil-whatsapp"></i>
+                </a></li>
+
+                <li data-aos="fade-in" data-aos-delay="300"><a href="https://www.instagram.com/" class="contact_list-item" target="_blank">                    
+                    <i class="uil uil-instagram"></i>
+                </a></li>
+
+                <li data-aos="fade-in" data-aos-delay="450"><a href="https://web.telegram.org/a/" class="contact_list-item" target="_blank">                    
+                    <i class="uil uil-telegram-alt"></i>
+                </a></li>
+            </ul>
+
+            <form action="https://formsubmit.co/38689b4dfb9de63019b8b7c296afc408" method="post" class="contact_form" data-aos="fade-up" data-aos-delay="500">
+                <input type="text" name="Name" placeholder="Full Name">
+                <input type="email" name="Email" placeholder="Email">
+                <textarea rows="7" name="Message" placeholder="Message"></textarea>
+                <button type="submit" class="btn">Let's Connect</button>
+            </form>
+        </div>
+    </section>
+    <!--===============end of connect===========-->
+
+
+
+
+    <footer>
+        <div class="container footer_container">
+            <ul class="footer_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="footer_socials">
+                <li><a href="https://www.linkedin.com/in/gmumar/" target="_blank"><i class="uil uil-linkedin"></i></a></li>
+                <li><a href="https://github.com/Umarboi" target="_blank"><i class="uil uil-github"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="uil uil-instagram-alt"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer_copyright">
+            <small>2023 <b>GHURE MOHD UMAR &copy;</b>All Rights Reserved.</small>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./mixitup/dist/mixitup.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({duration: 1500, offset: 80});
+    </script>
+    <script src="./index.js"></script>
+</body>
+</html>
